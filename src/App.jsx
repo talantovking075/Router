@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import './App.css';
 import { Routes, Route } from 'react-router-dom'; 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -16,7 +17,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<h1>Sahifa topilmadi!</h1>} />
+          <Route path="*" element={<h1 className='error'>404 ERROR</h1>} />
         </Routes>
       </div>
 

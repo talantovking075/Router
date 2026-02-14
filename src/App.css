@@ -1,19 +1,26 @@
-/* Butun sahifa konteyneri uchun */
 .app-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Sahifa balandligi kamida ekranning 100% qismini egallaydi */
+  min-height: 100vh; 
 }
 
-/* Kontent qismi uchun */
 .content {
-  flex: 1; /* Bu qism bo'sh joyni to'ldiradi va footerni pastga suradi */
+  flex: 1;
   padding: 20px;
 }
 
-/* Footer uchun (ixtiyoriy, agar kerak bo'lsa) */
 footer {
   width: 100%;
   background-color: #222;
   color: white;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: fantasy;
 }
