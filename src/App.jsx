@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom'; // Router komponentlarini chaqiramiz
+import { Routes, Route } from 'react-router-dom'; 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './components/ui/Home/Home';
@@ -8,10 +8,10 @@ import About from './components/ui/About/About';
 
 const App = () => {
   return (
-    <div className="app-wrapper"> {/* Flex konteyner */}
+    <div className="app-wrapper"> 
       <Navbar />
 
-      <div className="content"> {/* Asosiy kontent */}
+      <div className="content"> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -20,7 +20,7 @@ const App = () => {
         </Routes>
       </div>
 
-      <Footer /> {/* Endi footer har doim eng pastda bo'ladi */}
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Routes emas, Link ishlatamiz
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,7 +10,6 @@ const Footer = () => {
           My<span>Blog</span>
         </div>
 
-        {/* Sahifalar almashadigan joy emas, linklar turadigan joy */}
         <div className="footer-links">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
