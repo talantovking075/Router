@@ -15,12 +15,6 @@ const Footer = () => {
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
         </div>
-
-        <div className="footer-social">
-          <a href="#" className="social-icon">TG</a>
-          <a href="#" className="social-icon">IG</a>
-          <a href="#" className="social-icon">FB</a>
-        </div>
       </div>
 
       <div className="footer-bottom">
