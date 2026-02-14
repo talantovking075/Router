@@ -1,0 +1,19 @@
+/* Butun sahifa konteyneri uchun */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Sahifa balandligi kamida ekranning 100% qismini egallaydi */
+}
+
+/* Kontent qismi uchun */
+.content {
+  flex: 1; /* Bu qism bo'sh joyni to'ldiradi va footerni pastga suradi */
+  padding: 20px;
+}
+
+/* Footer uchun (ixtiyoriy, agar kerak bo'lsa) */
+footer {
+  width: 100%;
+  background-color: #222;
+  color: white;
+}
